@@ -13,6 +13,7 @@ public class SplashScreenActivity extends Activity {
 
     /**
     + Esta es la pantalla de inicio
+    + línea de prueba
     */
 
 
