@@ -11,6 +11,10 @@ import java.util.TimerTask;
 
 public class SplashScreenActivity extends Activity {
 
+    /**
+    + Esta es la pantalla de inicio
+    */
+
 
 
     // Set the duration of the splash screen
