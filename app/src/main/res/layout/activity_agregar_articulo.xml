@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_agregar_articulo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+
+    tools:context="com.gep.guille.pesoschilenosargentinos.AgregarArticulo"
+    android:theme="@style/Base.Theme.AppCompat.Light.DialogWhenLarge">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="CambiarImagen"
+        android:src="@drawable/cambiar_imagen"
+        android:id="@+id/imageView"
+        android:layout_weight=".2"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerInside" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_weight=".2">
+
+        <TextView
+            android:text="@string/Chilenos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_weight="0"
+            android:layout_gravity="bottom"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"/>
+
+        <TextView
+            android:text="@string/Argentinos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="0"
+            android:layout_gravity="bottom"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_weight="2.23"
+        android:layout_gravity="start"
+        android:hint="@string/hint_descripcion"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_weight="0.43">
+
+        <Button
+            android:text="Guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Guardar"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_weight="0"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="Agregando"
+            android:background="@drawable/botones"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+             />
+
+    </RelativeLayout>
+
+</LinearLayout>

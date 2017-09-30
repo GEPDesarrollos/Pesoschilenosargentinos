@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Agregar"
+        android:id="@+id/agregar"
+        />
+    <item
+        android:title="Modificar"
+        android:id="@+id/modificar"
+        />
+    <item
+        android:title="Precio MdoLibre Argentina"
+        android:id="@+id/mercadoLibre"
+        />
+    <item
+        android:title="Conversor"
+        android:id="@+id/Conversor"
+        />
+    <item
+        android:title="Eliminar"
+        android:id="@+id/eliminar"
+        />
+
+</menu>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+    <Button
+        android:text="@string/conversor"
+        android:onClick="Convierte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:background="@drawable/botones"
+        android:layout_below="@+id/editText4"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:inputType="numberDecimal"
+        android:hint="@string/hint_PesosChilenos"
+        android:ems="5"
+        android:id="@+id/editText4"
+        android:layout_marginLeft="33dp"
+        android:text="@string/Chilean"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:text="@string/Chilenos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:paddingTop="16dp"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/editText4"
+        android:layout_alignBottom="@+id/editText4"
+        android:layout_toStartOf="@+id/editText4"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/Dolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:paddingTop="8dp"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/textView42"
+        android:layout_alignStart="@+id/textView42"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+        android:text="@string/cero_pesos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView52"
+        android:paddingTop="8dp"
+        android:textSize="24sp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:text="@string/Argentinos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/textView42"
+        android:layout_marginTop="7dp"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView42"
+        android:paddingTop="8dp"
+        android:textSize="24sp"
+        android:text="@string/cero_pesos"
+        android:layout_marginStart="19dp"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:text="@string/guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botones"
+        android:id="@+id/button3"
+        android:onClick="AgregaArt"
+        android:textColor="@color/colorPrimaryDark"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:layout_below="@+id/textView52"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
+
+
+
+</RelativeLayout>

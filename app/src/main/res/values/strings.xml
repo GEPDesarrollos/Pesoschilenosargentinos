@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Chile App</string>
+    <string name="hint_descripcion">Descripción de Artículo</string>
+    <string name="hint_PesosChilenos">$ Chilenos</string>
+    <string name="Chilenos">$ Chile</string>
+    <string name="Chilean"></string>
+    <string name="Argentinos">$ Args</string>
+    <string name="Dolar">U$$ Dolar</string>
+    <string name="conversor">Convertir</string>
+    <string name="guardar">Guardar</string>
+    <string name="cero_pesos">$_______</string>
+    <string name="menu_articulo">Agregar Artículo</string>
+    <string name="menu_listado">Ir al listado</string>
+    <string name="menu_acerca">Acerca De</string>
+
+
+</resources>
